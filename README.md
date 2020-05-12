@@ -12,6 +12,12 @@ Brainf\*ukの各記号を置き換えただけです。
 \, すう
 \[ うつ
 \] うす
+
+# How to use
+上のBrainTsusu.jarをDownload.ターミナルからjarのあるとこまでcdして実行してください。
+
+ファイルを指定する場合、 `-file FILE_PATH`　で。
+
 # Sample Code
 ```
 つうつうつうつうつうつうつうつうつうつう
