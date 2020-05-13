@@ -1,5 +1,9 @@
 # BrainTsusu
 「つ」「す」「う」の三文字だけでProgrammingができちゃう！
+
+# Strong Point
+伝言ができる！(簡単にとは言ってない)
+
 # How to write
 Brainf\*ukの各記号を置き換えただけです。
 詳しくはそちらをば。
