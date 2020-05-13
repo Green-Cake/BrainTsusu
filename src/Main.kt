@@ -25,8 +25,8 @@ fun main(args: Array<String>) {
     val src = when {
         args.getOrNull(0) == "-file" -> {
             String(Files.readAllBytes(Paths.get(args[1])))
-                .replace("\n", "")
-                .replace("\r", "")
+                .replace("(//.*$)".toRegex(RegexOption.MULTILINE), "")
+                .replace("\n|\r|\\s|　".toRegex(), "")
         }
         args.getOrNull(0) == "-con" -> {
             println(convert(readLine()!!))
@@ -36,6 +36,9 @@ fun main(args: Array<String>) {
             readLine()!!
         }
     }
+
+    println(src)
+    println("# # # # # # # # # #")
 
     var cur = 0
     val heap = Array<UByte>(512) { 0u }
