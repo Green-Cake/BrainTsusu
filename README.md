@@ -64,3 +64,12 @@ Brainf\*ukの各記号を置き換えただけです。
 すつすつすす　//S
 つうつうすす　//U
 ```
+
+#I dunno how to use java
+☟のbatを同じフォルダにぶっこんでみな。動かなかったら最新のjavaをインストールしてね♡
+```
+@echo off
+cd %~dp0
+java -jar BrainTsusu.jar -file ソースファイルの絶対パス
+pause
+```
