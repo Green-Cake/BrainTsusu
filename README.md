@@ -65,7 +65,7 @@ Brainf\*ukの各記号を置き換えただけです。
 つうつうすす　//U
 ```
 
-#I dunno how to use java
+# I dunno how to use java
 ☟のbatを同じフォルダにぶっこんでみな。動かなかったら最新のjavaをインストールしてね♡
 ```
 @echo off
