@@ -55,7 +55,6 @@ fun main(args: Array<String>) {
             }
             Mode.JUMP_B -> {
                 while(getToken(cur) != "うつ") --cur
-                ++cur
                 mode = Mode.NORMAL
                 continue@a
             }
@@ -69,6 +68,8 @@ fun main(args: Array<String>) {
                 "うつ" -> if(heap[ptr] == 0u.toUByte()) { mode = Mode.JUMP_F; continue@a }
                 "うす" -> { mode = Mode.JUMP_B; continue@a }
                 "うう" -> print(heap[ptr].toByte())
+
+                "まて" -> Thread.sleep(heap[ptr].toLong() * 100)
             }
         }
 
