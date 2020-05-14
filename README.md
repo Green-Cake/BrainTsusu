@@ -1,5 +1,6 @@
 # BrainTsusu
 「つ」「す」「う」の三文字だけでProgrammingができちゃう！
+web版もあるよ!　→ http://gake.starfree.jp/
 
 # Strong Point
 どんなプログラムでも伝言ができる！(簡単にとは言ってない)
